@@ -13,7 +13,18 @@
 		957D90612345DA0A00F7485B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D90602345DA0A00F7485B /* Assets.xcassets */; };
 		957D90642345DA0A00F7485B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D90632345DA0A00F7485B /* Preview Assets.xcassets */; };
 		957D90672345DA0A00F7485B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957D90652345DA0A00F7485B /* LaunchScreen.storyboard */; };
+		957D90752345DA8000F7485B /* HowToCreateAToggleSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D90742345DA8000F7485B /* HowToCreateAToggleSwitchUITests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		957D90772345DA8000F7485B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 957D904F2345DA0900F7485B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 957D90562345DA0900F7485B;
+			remoteInfo = HowToCreateAToggleSwitch;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		957D90572345DA0900F7485B /* HowToCreateAToggleSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HowToCreateAToggleSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -24,10 +35,20 @@
 		957D90632345DA0A00F7485B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		957D90662345DA0A00F7485B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		957D90682345DA0A00F7485B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957D90722345DA8000F7485B /* HowToCreateAToggleSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HowToCreateAToggleSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		957D90742345DA8000F7485B /* HowToCreateAToggleSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToCreateAToggleSwitchUITests.swift; sourceTree = "<group>"; };
+		957D90762345DA8000F7485B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		957D90542345DA0900F7485B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957D906F2345DA8000F7485B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				957D90592345DA0900F7485B /* HowToCreateAToggleSwitch */,
+				957D90732345DA8000F7485B /* HowToCreateAToggleSwitchUITests */,
 				957D90582345DA0900F7485B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				957D90572345DA0900F7485B /* HowToCreateAToggleSwitch.app */,
+				957D90722345DA8000F7485B /* HowToCreateAToggleSwitchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -75,6 +98,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		957D90732345DA8000F7485B /* HowToCreateAToggleSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				957D90742345DA8000F7485B /* HowToCreateAToggleSwitchUITests.swift */,
+				957D90762345DA8000F7485B /* Info.plist */,
+			);
+			path = HowToCreateAToggleSwitchUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -95,6 +127,24 @@
 			productReference = 957D90572345DA0900F7485B /* HowToCreateAToggleSwitch.app */;
 			productType = "com.apple.product-type.application";
 		};
+		957D90712345DA8000F7485B /* HowToCreateAToggleSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957D90792345DA8000F7485B /* Build configuration list for PBXNativeTarget "HowToCreateAToggleSwitchUITests" */;
+			buildPhases = (
+				957D906E2345DA8000F7485B /* Sources */,
+				957D906F2345DA8000F7485B /* Frameworks */,
+				957D90702345DA8000F7485B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				957D90782345DA8000F7485B /* PBXTargetDependency */,
+			);
+			name = HowToCreateAToggleSwitchUITests;
+			productName = HowToCreateAToggleSwitchUITests;
+			productReference = 957D90722345DA8000F7485B /* HowToCreateAToggleSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -107,6 +157,10 @@
 				TargetAttributes = {
 					957D90562345DA0900F7485B = {
 						CreatedOnToolsVersion = 11.0;
+					};
+					957D90712345DA8000F7485B = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 957D90562345DA0900F7485B;
 					};
 				};
 			};
@@ -124,6 +178,7 @@
 			projectRoot = "";
 			targets = (
 				957D90562345DA0900F7485B /* HowToCreateAToggleSwitch */,
+				957D90712345DA8000F7485B /* HowToCreateAToggleSwitchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -136,6 +191,13 @@
 				957D90672345DA0A00F7485B /* LaunchScreen.storyboard in Resources */,
 				957D90642345DA0A00F7485B /* Preview Assets.xcassets in Resources */,
 				957D90612345DA0A00F7485B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		957D90702345DA8000F7485B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,7 +214,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		957D906E2345DA8000F7485B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957D90752345DA8000F7485B /* HowToCreateAToggleSwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		957D90782345DA8000F7485B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 957D90562345DA0900F7485B /* HowToCreateAToggleSwitch */;
+			targetProxy = 957D90772345DA8000F7485B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		957D90652345DA0A00F7485B /* LaunchScreen.storyboard */ = {
@@ -320,6 +398,44 @@
 			};
 			name = Release;
 		};
+		957D907A2345DA8000F7485B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				INFOPLIST_FILE = HowToCreateAToggleSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.HowToCreateAToggleSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowToCreateAToggleSwitch;
+			};
+			name = Debug;
+		};
+		957D907B2345DA8000F7485B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = L8W86DZDY2;
+				INFOPLIST_FILE = HowToCreateAToggleSwitchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ri.HowToCreateAToggleSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HowToCreateAToggleSwitch;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -337,6 +453,15 @@
 			buildConfigurations = (
 				957D906C2345DA0A00F7485B /* Debug */,
 				957D906D2345DA0A00F7485B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957D90792345DA8000F7485B /* Build configuration list for PBXNativeTarget "HowToCreateAToggleSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957D907A2345DA8000F7485B /* Debug */,
+				957D907B2345DA8000F7485B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

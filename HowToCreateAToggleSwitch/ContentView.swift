@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showGreeting = true
+
     var body: some View {
-        Text("Hello World")
+        VStack {
+            Toggle(isOn: $showGreeting) {
+                Text("Show welcome message")
+            }.padding()
+
+            if showGreeting {
+                Text("Hello World!")
+            }
+        }
     }
 }
 
